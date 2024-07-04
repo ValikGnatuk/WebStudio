@@ -1,0 +1,416 @@
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    
+  }
+  .header-container {
+    display: flex;
+    gap: 93px;
+    align-items: center;
+    
+  }
+  .contact-list {
+    margin-left: auto;
+    color: black;
+  }
+  .nav-list, .contact-list {
+    display: flex;
+    gap: 50px;
+    color: #000000;
+  }
+  .header {
+    padding: 25px 0;
+    border-bottom: 3px solid #ffffff;
+    background: rgba(255, 255, 255, 0.379);
+  }
+  .logo {
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30.52px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: hsl(203, 100%, 50%);
+  }
+  .header-logo {
+    color: #000000;
+  }
+  .nav-list-link {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #212121;
+    background: url();
+  }
+  .nav-list-link:hover {
+    color: #2196F3;
+  }
+  .contact-list-link {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #757575;
+  }
+  .contact-list-link:hover {
+    color: #2196F3;
+  }
+  /* Hero section */
+  .hero {
+  background-color: #2F303A;
+    padding: 200px 0;
+  }
+  .hero-title {
+    font-family: Roboto;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
+  .hero-btn {
+    display: block;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    width: 216px;
+    height: 50px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #009dff;
+    margin: 0 auto;
+    border-radius: 4px;
+  }
+  /* Features section */
+  .features {
+    padding: 94px 0;
+  }
+  .features-list {
+    display: flex;
+    gap: 30px;
+  }
+  .features-list-title {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #212121;
+    margin-bottom: 10px;
+  }
+  .features-list-text {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #757575;
+  }
+  .work {
+    padding-bottom: 94px;
+  }
+  .work-list {
+    display: flex;
+    gap: 30px;
+  }
+  .work-title {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+    margin-bottom: 50px;
+  }
+  .team {
+    padding: 94px 0;
+  }
+  .team-list {
+    display: flex;
+    gap: 30px;
+  }
+  .team-title {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42.19px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+    margin-bottom: 50px;
+  }
+  .team-list-title {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+    margin-top: 30px;
+  }
+  .team-list-text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #757575;
+    margin-top: 10px;
+  }
+  .footer {
+    background-color: #2F303A;
+    padding: 60px 0;
+  } 
+  .footer-logo {
+    color: #FFFFFF;
+  }
+  .address {
+    margin-top: 20px;
+  }
+  .address-list-link {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-bottom: 9px;
+ 
+  }
+  .portfolio {
+    padding: 94px 0;
+  }
+  .portfolio-list-text-wrap {
+    padding: 20px 24px;
+  }
+  .filter-list {
+    margin-bottom: 50px;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+   
+  }
+  .filter-list-btn {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+    background-color: #F5F4FA;
+    padding: 6px 22px;
+    border-radius: 4px;
+  }
+  .filter-list-btn:hover {
+    color: #FFFFFF;
+    background-color: #2196F3;
+  }
+  .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .portfolio-list-title {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    text-align: left;
+    color: #212121;
+    transform: scale(1.1);
+  }
+  .portfolio-list-text {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #757575;
+  }
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+  }
+  .backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+  .no-scroll {
+    overflow: hidden;
+  }
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFFFFF;
+    max-width: 528px;
+    padding: 40px;
+  }
+  .form-modal-input, .form-modal-textarea {
+    width: 100%;
+  }
+  .form-modal-textarea {
+    height: 120px;
+    padding: 12px 16px;
+    margin-top: 4px;
+  }
+  .form-modal-input {
+    height: 40px;
+    margin-top: 4px;
+  }
+  .modal-text {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #212121;
+    margin-bottom: 12px;
+  }
+  .form-modal-label {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #757575;
+    margin-bottom: 10px;
+    display: block;
+  }
+  .privacy-box {
+    display: flex;
+    gap: 8px;
+    margin-top: 20px;
+  }
+  .privacy-box-text {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #757575;
+  }
+  .privacy-box-link {
+    text-decoration: underline;
+  }
+  .modal-btn {
+    width: 200px;
+    height: 50px;
+    background-color: #2196F3;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #FFFFFF;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .info{
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+  border-bottom: 3px solid #ffffff;
+  background: rgba(255, 255, 255, 0.379);
+  }
+ .heru{
+  background: url(https://viknaroff.ua/wp-content/uploads/2019/09/golovna-1.jpg);
+ }
+ .img-i{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border: 2px solid #ff7300;
+  padding: 4px;
+ }
+ .home{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  font-family: "Sedan", serif;
+ 
+ }
+ .Home{
+  margin: 80px;
+  font-family: "Sedan", serif; 
+  font-size: 1,5em;
+  margin-right: 2px;
+ 
+  
+ }
+ .overlay{
+  position: relative;
+   overflow: hidden; 
+  
+}
+.overlay-op{
+font-family: Roboto;
+font-size: 19px;
+font-weight: 100px;
+line-height: 15x;
+letter-spacing: 0.03em;
+text-align: center;
+background-color: #006effe5;
+color: #FFFFFF;
+padding: 125px 120px;
+position: absolute;
+bottom: 0;
+transform: translateY(100%);
+transition: 1s;
+}
+.portfolio-list-item:hover .overlay-op{
+  max-width: 370px;
+  transform: translateY(0);
+}
+.df{
+    display: flex;
+    justify-content: center;
+}
+.d{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.clients{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.clients-title{
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+
